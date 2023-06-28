@@ -1,6 +1,6 @@
 class ATM:
     def __init__(self):
-        self.banknotesCount = [0, 0, 0, 0, 0]  # $20, $50, $100, $200, $500
+        self.banknotesCount = [0, 0, 0, 0, 0] 
 
     def deposit(self, banknotesCount):
         for i in range(5):
